@@ -1,0 +1,84 @@
+.footer {
+    font-family: Sen, sans-serif;
+    background-color: #000;
+    color: #fff;
+    padding: 2.5rem 0 10rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+  }
+  
+.footer h2 {
+    font-size: xx-large;
+    margin-bottom: 0.75rem;
+  }
+  
+.footer p {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+  }
+.footer-1-2 {
+    display: flex;
+}
+.footer input {
+    background-color: black;
+    color: white;
+    border-bottom: #fff;
+    padding: 1rem;
+    width: 100%;
+
+  }
+  
+.footer button {
+    margin-left: 0.5rem;
+    color: white;
+    cursor: pointer;
+    border: none;
+    background-color: #000;
+  }
+  
+.footer ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.footer ul li {
+    margin-bottom: 0.5rem;
+    font-size: 0.875rem;
+  }
+.footer-2{
+    display: flex;
+    gap: 10rem;
+    margin-top: 1rem;
+  }
+.footer-2 h3 {
+    font-size: large;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+  }
+.footer-2 ul li{
+    margin-bottom: 0.5rem;
+    color:rgb(149, 149, 146) ;
+    font-size:medium;
+  }
+.footer-3-2, .footer-4-1{
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    font-size: x-large;
+}
+
+.footer-1 {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+.footer-3 {
+    display: grid;
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  

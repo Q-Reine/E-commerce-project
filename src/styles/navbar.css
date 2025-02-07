@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2rem;
+    margin-inline: 10rem;
+    justify-content: space-between;
+}
+.nav h1{
+    padding-right: 2rem;
+}
+.nav button{
+    
+    border-radius: 10%;
+    border-color: rgba(0, 42, 255, 0.929);
+}
+.searchbar{
+    margin-right: 30rem;
+    box-sizing: border-box;
+    border-radius: 10%;
+    border-color: rgba(0, 0, 255, 0.888);
+}
+.nav-bar{
+    padding: 1rem 10rem 1rem 10rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+    background-color: #5d00ff;
+}
+.nav-bar ul{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar li{
+    margin-inline: 3rem;
+    text-decoration: none;
+    list-style: none;
+}
+.nav-bar a {
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+}
+

@@ -1,0 +1,10 @@
+.nav-container{
+    display: flex;
+    gap:5rem
+}
+img {
+    width: 100%;
+}
+.btn-btn {
+    width: 5rem;
+}
